@@ -6,7 +6,7 @@ customerA has features: {area: '华东区'}
 customerB has features: {area: '西华北'}
 customerC has features: {area: '华南区'}
 
-P.S.: '华东区', '西华北' and '华南区' are area in China. 
+P.S.: '华东区', '西华北' and '华南区' are areas in China. 
 
 Edit Distance can be presented as :
 
