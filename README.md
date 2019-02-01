@@ -12,8 +12,8 @@ Edit Distance can be presented as :
 
 
 D(i,j) = i    if j=0 ;
-       = j    if i=0 ;
-       = min(D(i-1, j) +1, D(i,j-1)+1,  D(i-1,j-1)+[A[i]!=B[j])  otherwise ;
+D(i,j) = j    if i=0 ;
+D(i,j) = min(D(i-1, j) +1, D(i,j-1)+1,  D(i-1,j-1)+[A[i]!=B[j])  otherwise ;
        
 
 Therefore the distance(D) betweeh A and C is 1; D(A,B) = 3 D(A,C) =3. We can map the original area of customer into certain words such that they have a clear literal distance which is also correlated with their geographical location.
